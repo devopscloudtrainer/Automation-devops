@@ -48,3 +48,11 @@ Untracked files:
         fetch-checkout.txt
         fetch-merge.txt
         new-sample.txt
+
+3. Hard reset: This is most critical reset which will remove everything till the commit mentioned that means it will clean the working /staging/local repo.
+
+
+command: git reset --hard commit_id
+
+[root@ip-172-31-14-178 aws-automation-repo]# git reset --hard ad35fcc
+HEAD is now at ad35fcc Add files via upload
